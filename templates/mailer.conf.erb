@@ -1,0 +1,11 @@
+#
+# mailer.conf for use with dma(8)
+#
+# If sendmail is configured, an example of mailer.conf that uses sendmail
+# instead can be found in /usr/share/examples/sendmail.
+#
+# File managed by puppet
+
+sendmail	/usr/libexec/dma
+mailq		/usr/libexec/dma
+newaliases	/usr/libexec/dma
